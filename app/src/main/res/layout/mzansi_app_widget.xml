@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:padding="@dimen/widget_margin"
+              android:background="@color/colorPrimaryDark"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#9000"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:id="@+id/widget_hotels"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:contentDescription="@string/call_place_content_description"
+            android:focusable="true"
+            android:background="@color/google_blue"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/widget_hotel_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="4dp"
+                android:src="@drawable/ic_hotel_widget"/>
+
+            <TextView
+                android:id="@+id/hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                tools:text="Hotels"
+                android:textSize="13sp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_restaurants"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:contentDescription="@string/call_place_content_description"
+            android:focusable="true"
+            android:background="@color/google_blue"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/restaurant_hotel_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="4dp"
+                android:src="@drawable/ic_restaurant_widget"/>
+
+            <TextView
+                android:id="@+id/restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                tools:text="Restaurants"
+                android:textSize="13sp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_places"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:contentDescription="@string/call_place_content_description"
+            android:focusable="true"
+            android:background="@color/google_blue"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/places_hotel_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="4dp"
+                android:src="@drawable/ic_place_widget"/>
+
+            <TextView
+                android:id="@+id/places"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                tools:text="Places"
+                android:textSize="13sp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

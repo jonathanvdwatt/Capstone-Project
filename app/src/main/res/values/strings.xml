@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Mzansi Travel</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="loading">Loading</string>
+
+    <string name="facebook_app_id">786115298158231</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_place_detail">Place Details</string>
+    <string name="title_activity_review">Reviews</string>
+    <string name="no_phn_number_for_place_text">There is no phone number for this place.</string>
+    <string name="no_website_for_place_text">There is no website for this place.</string>
+    <string name="checkColumns_unknown_columns_text">Uknown columns in projection</string>
+    <string name="place_added_to_favorites_text">Place added to favorites</string>
+    <string name="title_activity_saved_places">Saved Places</string>
+    <string name="saved_places_text">Saved Places</string>
+    <string name="no_data_text">No data to display</string>
+    <string name="google_api_key">AIzaSyCSz3cmm4a8PIpQYsK8diXKLDgRmvTHzV8</string>
+    <string name="place_has_already_been_saved_text">Place has already been saved</string>
+    <string name="sign_in_using_google_account_content_description">Sign in using your Google account</string>
+    <string name="sign_in_using_facebook_account_content_description">Sign in using your Facebook account</string>
+    <string name="call_place_content_description">Call place</string>
+    <string name="browse_place_website_content_description">Browse to place\'s website</string>
+    <string name="read_place_reviews_content_description">Read place reviews</string>
+    <string name="add_place_to_favorites_content_description">Add place to favorites</string>
+    <string name="facebook_login_set_read_permissions_text">email</string>
+    <string name="facebook_login_successful_logon_text">Logged into Facebook</string>
+    <string name="facebook_logon_cancelled_logon_text">Cancelling Facebook login</string>
+    <string name="authentication_shared_preference_key_text">LOGGED_IN</string>
+    <string name="authentication_shared_pref_editor_boolean_text">loggedIn</string>
+    <string name="no_internet_connectivity_text">No Internet connectivity</string>
+    <string name="no_internet_connectivity_detail_text">Please connect to the Internet</string>
+    <string name="no_location_services_text">No Location Services</string>
+    <string name="no_location_services_detail_text">Please turn on your Location Services</string>
+    <string name="calling_activity_text">CallingActivity</string>
+    <string name="place_key_text">place</string>
+    <string name="mode_key_text">mode</string>
+    <string name="hotels_intentextra_item_text">hotels</string>
+    <string name="restaurants_intentextra_item_text">restaurants</string>
+    <string name="places_intentextra_item_text">places</string>
+    <string name="place_id_text">PlaceID</string>
+    <string name="place_name_text">PlaceName</string>
+    <string name="place_rating_text">PlaceRating</string>
+    <string name="place_vicinity_text">PlaceVicinity</string>
+    <string name="place_number_text">PlaceNumber</string>
+    <string name="place_website_text">PlaceWebsite</string>
+    <string name="place_address_text">PlaceAddress</string>
+    <string name="place_coordinates_text">PlaceCoordinates</string>
+    <string name="snackbar_action_text">Action</string>
+    <string name="save_place_disabled_text">SavePlaceDisabled</string>
+    <string name="saved_hotels_text">Saved Hotels</string>
+    <string name="saved_restaurants_text">Saved restaurants</string>
+    <string name="interesting_places_text">Interesting places</string>
+    <string name="saved_places_mode_bundle_key_text">bundle</string>
+    <string name="saved_places_bundle_hotel_text">hotels</string>
+    <string name="saved_places_bundle_restaurant_text">restaurants</string>
+    <string name="saved_places_bundle_places_text">places</string>
+    <string name="hotel_place_type_text">hotel</string>
+    <string name="restaurant_place_type_text">restaurant</string>
+    <string name="point_of_interest_place_type_text">point_of_interest</string>
+    <string name="place_saved_to_hotels_text">Place saved to \"Hotels\"</string>
+    <string name="place_saved_to_restaurants_text">Place saved to \"Restaurants\"</string>
+    <string name="place_saved_to_interesting_places_text">Place saved to \"Interesting places\"</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
