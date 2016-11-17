@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     DrawerLayout mDrawerLayout;
     @BindView(R.id.nav_view)
     NavigationView mNavigationView;
-    private Cursor mCursor;
+    //private Cursor mCursor;
 
     /*
      * Location stuff

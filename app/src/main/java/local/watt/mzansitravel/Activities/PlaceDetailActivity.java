@@ -54,7 +54,8 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnTaskComp
         OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
-        OnReviewSelected, LoaderManager.LoaderCallbacks<Cursor>,
+        OnReviewSelected,
+        LoaderManager.LoaderCallbacks<Cursor>,
         PopupMenu.OnMenuItemClickListener {
     private static final String TAG = PlaceDetailActivity.class.getSimpleName();
 
@@ -441,8 +442,8 @@ public class PlaceDetailActivity extends AppCompatActivity implements OnTaskComp
         Log.d(TAG, "startLoader()");
 
         // Prepare a Loader
-        Bundle bundle = new Bundle();
-        bundle.putString(getString(R.string.place_id_text), mPlaceID);
+        //Bundle bundle = new Bundle();
+        //bundle.putString(getString(R.string.place_id_text), mPlaceID);
         getLoaderManager().initLoader(0, null, this);
     }
 

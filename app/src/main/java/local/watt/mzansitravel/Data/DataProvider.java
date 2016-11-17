@@ -188,12 +188,17 @@ public class DataProvider extends ContentProvider {
                         String[] selectionArgs,
                         String sortOrder) {
 
+        Log.d(TAG, "query(\n" + uri + "\n" + projection + "\n" + selection.toString() + "\n" + selectionArgs[0] + "\n" + sortOrder + "\n)");
+
         SQLiteDatabase db = mHelper.getReadableDatabase();
         // Decodes the content URI and maps it to a code
         switch (sUriMatcher.match(uri)) {
 
             // If the query is for a picture URL
             case PLACE_QUERY:
+
+                Log.d(TAG, "PLACE_QUERY");
+
                 // Does the query against a read-only version of the database
                 Cursor returnCursor = db.query(
                         DataProviderContract.PLACES_TABLE_NAME, // The table

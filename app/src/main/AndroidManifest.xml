@@ -84,6 +84,9 @@
         <receiver android:name=".Widget.MzansiAppWidget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="local.watt.mzansitravel.Widget.MzansiAppWidget.ACTION_SAVED_HOTELS"/>
+                <action android:name="local.watt.mzansitravel.Widget.MzansiAppWidget.ACTION_SAVED_RESTAURANTS"/>
+                <action android:name="local.watt.mzansitravel.Widget.MzansiAppWidget.ACTION_SAVED_POINTS_OF_INTEREST"/>
             </intent-filter>
 
             <meta-data

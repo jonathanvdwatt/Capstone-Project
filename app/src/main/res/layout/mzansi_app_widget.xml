@@ -1,6 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              android:layout_height="wrap_content"
               xmlns:tools="http://schemas.android.com/tools"
               android:padding="@dimen/widget_margin"
               android:background="@color/colorPrimaryDark"
@@ -28,24 +28,11 @@
             android:background="@color/google_blue"
             android:layout_margin="5dp">
 
-            <ImageView
-                android:id="@+id/widget_hotel_image"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:padding="4dp"
-                android:src="@drawable/ic_hotel_widget"/>
-
-            <TextView
-                android:id="@+id/hotel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textColor="@android:color/black"
-                tools:text="Hotels"
-                android:textSize="13sp"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"/>
+            <Button
+                android:id="@+id/hotel_widget_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_hotel_widget"/>
 
         </LinearLayout>
 
@@ -63,24 +50,11 @@
             android:background="@color/google_blue"
             android:layout_margin="5dp">
 
-            <ImageView
-                android:id="@+id/restaurant_hotel_image"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:padding="4dp"
-                android:src="@drawable/ic_restaurant_widget"/>
-
-            <TextView
-                android:id="@+id/restaurant"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textColor="@android:color/black"
-                tools:text="Restaurants"
-                android:textSize="13sp"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"/>
+            <Button
+                android:id="@+id/restaurant_widget_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_restaurant_widget"/>
 
         </LinearLayout>
 
@@ -98,24 +72,11 @@
             android:background="@color/google_blue"
             android:layout_margin="5dp">
 
-            <ImageView
-                android:id="@+id/places_hotel_image"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:padding="4dp"
-                android:src="@drawable/ic_place_widget"/>
-
-            <TextView
-                android:id="@+id/places"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textColor="@android:color/black"
-                tools:text="Places"
-                android:textSize="13sp"
-                android:paddingLeft="@dimen/activity_horizontal_margin"
-                android:paddingRight="@dimen/activity_horizontal_margin"/>
+            <Button
+                android:id="@+id/point_of_interest_widget_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_place_widget"/>
 
         </LinearLayout>
 
