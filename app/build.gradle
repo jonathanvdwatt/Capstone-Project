@@ -1,9 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        release {
+            keyAlias 'MzansiTravelAndroidKey'
+            keyPassword 'myKeyPassword'
+            storeFile file('keystore/local.watt.keystore.jks')
+            storePassword 'myStorePassword'
+        }
+    }
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
-
     defaultConfig {
         applicationId "local.watt.mzansitravel"
         minSdkVersion 18
@@ -18,6 +25,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             //apply plugin: 'com.google.gms.google-services'
             apply plugin: 'android-apt'
+            signingConfig signingConfigs.release
         }
     }
 }
